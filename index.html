@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jeffry Quiñonez | Portafolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Montserrat & display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/utils.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/sections.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/skillset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/experience.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
+
+</head>
+
+<body>
+    <header>
+        <img class="circle" src="assets/img/logos/large.png" alt="logo large" />
+        <h1>Jeffry Gabino Quiñonez Sas</h1>
+        <hr />
+        <h2>Desarrollador Frontend</h2>
+        <video autoplay loop muted>
+            <source src="assets/video/hero.mp4" />
+        </video>
+    </header>
+    <nav id="navbar" ><!--navbar-fixed-->
+        <div>
+            <a href="/">
+                <img class="circle" src="assets/img/logos/small.png" alt="small logo" />
+                <span>Jeffry Quiñonez <small>Desarrollador Frontend</small></span>
+            </a>
+            <button id="hamburger">☰</button>
+        </div>
+        <ul>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#skillset">Habilidades</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="portfolio">
+            <h3>Portfolio</h3>
+            <hr />
+            <div>
+                <button>
+                    <img src="assets/img/portfolio/1.png" />
+                    <h4>Proyecto 1</h4>
+                </button>
+                <button>
+                    <img src="assets/img/portfolio/2.png" />
+                    <h4>Proyecto 2</h4>
+                </button>
+                <button>
+                    <img src="assets/img/portfolio/3.png" />
+                    <h4>Proyecto 3</h4>
+                </button>
+            </div>
+        </section>
+        <section id="skillset" class="even">
+            <h3>Habilidades</h3>
+            <hr />
+            <div>
+                <div>
+                    <img src="assets/img/skillset/HTML.png" />
+                    <span class="tooltip">HTML</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/CSS.png" />
+                    <span class="tooltip">CSS</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/JavaScript.png" />
+                    <span class="tooltip">Javascript</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/Python.png" />
+                    <span class="tooltip">Python</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/SQL.png" />
+                    <span class="tooltip">SQL</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/C++.png" />
+                    <span class="tooltip">C++</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/Node Js.png" />
+                    <span class="tooltip">Node.js</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/React.png" />
+                    <span class="tooltip">React</span>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <h3>Experiencia</h3>
+            <hr />
+            <div>
+                <a>
+                    <img src="assets/img/experience/1.svg" />
+                    <h4>Trabajo 1</h4>
+                </a>
+                <a>
+                    <img src="assets/img/experience/2.svg" />
+                    <h4>Trabajo 2</h4>
+                </a>
+                <a>
+                    <img src="assets/img/experience/3.svg" />
+                    <h4>Trabajo 3</h4>
+                </a>
+                <a>
+                    <img src="assets/img/experience/4.svg" />
+                    <h4>Trabajo 4</h4>
+                </a>
+            </div>
+        </section>
+        <section id="contact" class="even">
+            <h3>Contacto</h3>
+            <hr />
+            <!-- Utiliza Formspree -->
+            <form action="https://formspree.io/f/mvolkrbz" method="POST">
+                <label>
+                    Tu correo:
+                    <input type="email" name="_replyto">
+                </label>
+                <label>
+                    Tu mensaje:
+                    <textarea name="message"></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+            <nav id="social-media">
+                <a href="https://www.linkedin.com/in/xavier-reyes-ochoa/">
+                    <img id="linkedin" src="assets/img/social/linkedin.png">
+                </a>
+                <a href="https://github.com/xrochoa">
+                    <img id="github" src="assets/img/social/github.png">
+                </a>
+                <a href="https://www.programadorx.com">
+                    <img id="youtube" src="assets/img/social/youtube.png">
+                </a>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <small>Developed and designed by Jeffry Gabino Quiñonez Sas. ©2021. All rights reserved.</small>
+    </footer>
+    <script src="assets/Js/main.Js"></script>
+    <script src="assets/Js/fixed.js"></script>
+</body>
+
+</html>
